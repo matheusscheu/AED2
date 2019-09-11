@@ -1,5 +1,6 @@
 class Tabela:
-    def __init__(self,) :
+    def __init__(self,tam):
+        self.tam_max
     def InsereTabela(self)    
     def BuscaBinaria(self,lista,x):
         primeiro = 0
@@ -25,5 +26,5 @@ class Tabela:
         else: 
             return BuscaBinRec(vet,x,ini,meio-1)                      
 
-    def RemoveTabela(self)
+    def RemoveTabela(self):
     def DestroiTabela(self):
